@@ -160,7 +160,7 @@ hr {
 }
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
+	
 	color: #fff;
 	background-color: #5ca9fb;
 	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -326,6 +326,22 @@ header .intro-text {
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+.services:hover, .services:focus, .services.focus, .services:active, .services.active {
+	color: #fff;
+	background-image: none;
+	background-color: #6372ff;
+}
+.services:active, .services.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+a:focus, .services:focus, .services:active:focus, .services.active:focus, .services.focus, .services:active.focus, .services.active.focus {
+	outline: none;
+	outline-offset: none;
+
 }
 #services h3 {
 	font-weight: 500;
