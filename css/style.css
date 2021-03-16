@@ -331,7 +331,19 @@ header .intro-text {
 	margin-left: -30px;
 	left: 50%;
 }
-#services i.fa, img.fu {
+#services i.fa {
+	font-size: 42px;
+	width: 120px;
+	height: 120px;
+	padding: 40px 0;
+	background: linear-gradient(to right, #2c3fee 0%, #78b6f8 100%);
+	border-radius: 50%;
+	color: #fff;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+	background-size: contain;
+
+}
+#services img.fu {
 	font-size: 42px;
 	width: 120px;
 	height: 120px;
