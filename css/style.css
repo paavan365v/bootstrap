@@ -66,26 +66,40 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 15px;
+	padding: 10px;
 	transition: all 0.8s;
+}
+
 }
 #menu.navbar-default {
 	background-color: #fff;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
+#menu .navbar-header > a > img
+{
+	display: flex;
+ justify-content: space-around;
+ height: 100px;
+}
 #menu a.navbar-brand {
+	margin: 0px;
+	padding: 0px;
+	height: 70px;
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
+
+}
+
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	color: #555;
-	font-size: 15px;
+	font-size: 25px;
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
