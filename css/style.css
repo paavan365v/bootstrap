@@ -188,7 +188,7 @@ hr {
 	border: 0;
 }
 .cent {
- justify-content: center;
+ justify-content: center !important ;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
